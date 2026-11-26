@@ -1,0 +1,11 @@
+# ignore python files 
+*.pyc
+__pycache__/
+chache/
+
+# ignore enviroment files
+*.venv 
+
+# ignore tiff files 
+*.tiff
+.tif 
