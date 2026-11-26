@@ -10,7 +10,7 @@ The project follows these steps:
    land cover labels are loaded for Arnhem, Renkum and Wageningen. Class distributions
    and scene differences are inspected.
 2. **Feature engineering.** The 12 spectral bands are extended with spectral indices
-   (NDVI, MNDWI, NDBI), computed per scene before flattening each image into a pixel table.
+   (NDVI, NDWI, NDBI), computed per scene before flattening each image into a pixel table.
 3. **Class imbalance handling.** Class-weighted learning (Random Forest) and class-balanced
    pixel sampling (KNN) are used to avoid ignoring rare classes.
 4. **Spatial validation.** Models are trained on Arnhem and validated on Renkum, a
